@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- =========iconscout link ========== -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- =======ASIDE TAG =========== -->
+      <aside>
+        <div class="logo">
+          <img src="./images/logo.png" />
+          <h2>BLUE <span class="danger">SHOP</span></h2>
+        </div>
+
+        <div class="sidebar">
+          <a href="#">
+            <span><i class="uil uil-apps"></i></span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="#">
+            <span><i class="uil uil-user"></i></span>
+            <h3>Customers</h3>
+          </a>
+          <a href="#">
+            <span><i class="uil uil-chart-bar"></i></span>
+            <h3>Orders</h3>
+          </a>
+          <a href="#">
+            <span><i class="uil uil-analytics"></i></span>
+            <h3>Analytics</h3>
+          </a>
+          <a href="#">
+            <span><i class="uil uil-telegram-alt"></i></span>
+            <h3>Products</h3>
+          </a>
+          <a href="#">
+            <span><i class="uil uil-exclamation-triangle"></i></span>
+            <h3>Reports</h3>
+          </a>
+          <a href="#">
+            <span><i class="uil uil-setting"></i></span>
+            <h3>Settings</h3>
+          </a>
+          <a href="#">
+            <span><i class="uil uil-plus"></i></span>
+            <h3>Add Product</h3>
+          </a>
+          <a href="#">
+            <span><i class="uil uil-signout"></i></span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+      <!-- =======ASIDE TAG Ends =========== -->
+      <!-- ===========Main============= -->
+      <main>
+        <h1>DASHBOARD</h1>
+
+        <div class="insights">
+          <!-- =================Sales======== -->
+          <div class="sales">
+            <span><i class="uil uil-chart-line"></i></span>
+
+            <div class="middle">
+              <div class="left">
+                <h3>Total Sales</h3>
+                <h1>$44,589</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">90%</div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+
+          <!-- ==============Expenses=========== -->
+          <div class="expenses">
+            <span><i class="uil uil-chart-growth-alt"></i></span>
+
+            <div class="middle">
+              <div class="left">
+                <h3>Total Expenses</h3>
+                <h1>$22,433</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">75%</div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!-- ================Income========== -->
+          <div class="income">
+            <span><i class="uil uil-arrow-growth"></i></span>
+
+            <div class="middle">
+              <div class="left">
+                <h3>Total Income</h3>
+                <h1>$23,490</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">70%</div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+        </div>
+
+        <!-- ========Orders========== -->
+        <div class="recent-orders">
+          <h2>Recent-Orders</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Product Name</th>
+                <th>Product ID</th>
+                <th>Payment</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sony DSLR Camera</td>
+                <td>523489</td>
+                <td>Due</td>
+                <td class="success">Shipped</td>
+              </tr>
+              <tr>
+                <td>Sony DSLR Camera</td>
+                <td>523489</td>
+                <td>Due</td>
+                <td class="danger">Panding</td>
+              </tr>
+              <tr>
+                <td>Sony DSLR Camera</td>
+                <td>523489</td>
+                <td>Due</td>
+                <td class="danger">Panding</td>
+              </tr>
+              <tr>
+                <td>Sony DSLR Camera</td>
+                <td>523489</td>
+                <td>Due</td>
+                <td class="danger">Panding</td>
+              </tr>
+              <tr>
+                <td>Sony DSLR Camera</td>
+                <td>523489</td>
+                <td>Due</td>
+                <td class="danger">Panding</td>
+              </tr>
+              <tr>
+                <td>Sony DSLR Camera</td>
+                <td>523489</td>
+                <td>Due</td>
+                <td class="danger">Panding</td>
+              </tr>
+              <tr>
+                <td>Sony DSLR Camera</td>
+                <td>523489</td>
+                <td>Paid</td>
+                <td class="success">Shipped</td>
+              </tr>
+              <tr>
+                <td>Sony DSLR Camera</td>
+                <td>523489</td>
+                <td>Due</td>
+                <td class="danger">Panding</td>
+              </tr>
+              <tr>
+                <td>Sony DSLR Camera</td>
+                <td>523489</td>
+                <td>Due</td>
+                <td class="danger">Panding</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+      <!-- ===========Right========= -->
+
+      <div class="right">
+        <!-- ======Profile====== -->
+        <div class="profile">
+          <div class="info">
+            <p>Hello, <strong>Mostafiz</strong></p>
+            <small class="text-muted"> Admin </small>
+          </div>
+
+          <div class="profile-photo">
+            <img src="./images/profile-1.jpg" />
+          </div>
+        </div>
+
+        <!-- ============Updates======= -->
+
+        <div class="recent-updates">
+          <h2>Recent-Updates</h2>
+          <div class="updates">
+            <div class="update">
+              <div class="profile-photo">
+                <img src="./images/profile-2.jpg" />
+              </div>
+
+              <div class="message">
+                <p><strong>Rushin</strong> Lorem ipsum dolor sit amet.</p>
+                <small class="text-muted">13 Minutes Ago</small>
+              </div>
+            </div>
+
+            <div class="update">
+              <div class="profile-photo">
+                <img src="./images/profile-3.jpg" />
+              </div>
+
+              <div class="message">
+                <p><strong>Rahman</strong> Lorem ipsum dolor sit amet.</p>
+                <small class="text-muted">10 Minutes Ago</small>
+              </div>
+            </div>
+
+            <div class="update">
+              <div class="profile-photo">
+                <img src="./images/profile-4.jpg" />
+              </div>
+
+              <div class="message">
+                <p><strong>Badhon</strong> Lorem ipsum dolor sit amet.</p>
+                <small class="text-muted">15 Minutes Ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- =========Analytics====== -->
+
+        <div class="analytics">
+          <h2>Analytics</h2>
+          <div class="item online">
+            <div class="icon">
+              <span><i class="uil uil-shopping-bag"></i></span>
+            </div>
+
+            <div class="right">
+              <div class="info">
+                <h3>ONLINE ORDERS</h3>
+                <small class="text-muted">Last 24 Hours</small>
+              </div>
+              <h5 class="success">+25%</h5>
+              <h5>1250</h5>
+            </div>
+          </div>
+
+          <div class="item offline">
+            <div class="icon">
+              <span><i class="uil uil-shopping-cart"></i></span>
+            </div>
+
+            <div class="right">
+              <div class="info">
+                <h3>OFFLINE ORDERS</h3>
+                <small class="text-muted">Last 24 Hours</small>
+              </div>
+              <h5 class="danger">-15%</h5>
+              <h5>650</h5>
+            </div>
+          </div>
+
+          <div class="item customers">
+            <div class="icon">
+              <span><i class="uil uil-user"></i></span>
+            </div>
+
+            <div class="right">
+              <div class="info">
+                <h3>NEW CUSTOMERS</h3>
+                <small class="text-muted">Last 24 Hours</small>
+              </div>
+              <h5 class="success">+35%</h5>
+              <h5>390</h5>
+            </div>
+          </div>
+
+          <div class="item add-product">
+            <div>
+              <span><i class="uil uil-plus"></i></span>
+              <h3>Add Product</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
